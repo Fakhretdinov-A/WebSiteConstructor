@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "C5+zpPuxVss0Eyd/3MeFpBLx1A8SrzW+Z6Srao3wYzoutdLThLqAvtSwjmDtbrL/UZj2BsOjR3oFeiQ6kJgswg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\fakhr\\source\\repos\\SchoolProject\\SchoolProject\\SchoolProject.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\fakhr\\.nuget\\packages\\microsoft.windowsapicodepack-shell\\1.1.0\\microsoft.windowsapicodepack-shell.1.1.0.nupkg.sha512",
+    "C:\\Users\\fakhr\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"Microsoft.WindowsAPICodePack-Shell 1.1.0\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \".NETCoreApp,Version=v3.1\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "Microsoft.WindowsAPICodePack-Shell",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}

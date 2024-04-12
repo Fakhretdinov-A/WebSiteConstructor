@@ -1,0 +1,66 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="213231.jpg" />
+    <None Remove="69.-Understated-Versatile.jpg" />
+    <None Remove="c96030b6c907c6c8d9b6de2fe063ffb6.jpg" />
+    <None Remove="chyornyy-fon.jpg" />
+    <None Remove="dasdasdd.jpg" />
+    <None Remove="design-portfolio.png" />
+    <None Remove="icons8-настройки-100.png" />
+    <None Remove="icons8-настройки-50.png" />
+    <None Remove="Image1.png" />
+    <None Remove="New_york_times_square-terabass.jpg" />
+    <None Remove="screen-shot-2020-09-07-at-10627-pm___07163411370.png" />
+    <None Remove="Снимок экрана 2021-04-18 203356.jpg" />
+    <None Remove="Снимок экрана 2021-04-18 203356.png" />
+    <None Remove="Снимок экрана 2021-05-06 191251.png" />
+    <None Remove="Снимок экрана 2021-05-17 181823.png" />
+    <None Remove="Снимок экрана 2021-05-17 190408.png" />
+    <None Remove="Снимок экрана 2021-05-17 212726.png" />
+    <None Remove="Снимок экрана 2021-05-28 180717.png" />
+    <None Remove="Снимок экрана 2021-05-28 180935.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <COMReference Include="{215d64d2-031c-33c7-96e3-61794cd1ee61}">
+      <WrapperTool>tlbimp</WrapperTool>
+      <VersionMinor>4</VersionMinor>
+      <VersionMajor>2</VersionMajor>
+      <Guid>215d64d2-031c-33c7-96e3-61794cd1ee61</Guid>
+    </COMReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.WindowsAPICodePack-Shell" Version="1.1.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="213231.jpg" />
+    <Resource Include="69.-Understated-Versatile.jpg" />
+    <Resource Include="c96030b6c907c6c8d9b6de2fe063ffb6.jpg" />
+    <Resource Include="chyornyy-fon.jpg" />
+    <Resource Include="dasdasdd.jpg" />
+    <Resource Include="design-portfolio.png" />
+    <Resource Include="icons8-настройки-100.png" />
+    <Resource Include="icons8-настройки-50.png" />
+    <Resource Include="Image1.png" />
+    <Resource Include="New_york_times_square-terabass.jpg" />
+    <Resource Include="screen-shot-2020-09-07-at-10627-pm___07163411370.png" />
+    <Resource Include="Снимок экрана 2021-04-18 203356.jpg" />
+    <Resource Include="Снимок экрана 2021-05-06 191251.png" />
+    <Resource Include="Снимок экрана 2021-05-17 181823.png" />
+    <Resource Include="Снимок экрана 2021-05-17 190408.png" />
+    <Resource Include="Снимок экрана 2021-05-17 212726.png" />
+    <Resource Include="Снимок экрана 2021-05-28 180717.png" />
+    <Resource Include="Снимок экрана 2021-05-28 180935.png" />
+  </ItemGroup>
+
+</Project>

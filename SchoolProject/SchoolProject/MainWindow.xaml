@@ -1,0 +1,63 @@
+﻿<Window x:Class="SchoolProject.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SchoolProject"
+        mc:Ignorable="d"
+        Title="Конструктор сайтов" Height="660" Width="1200" WindowStartupLocation="CenterScreen">
+    <Window.Resources>
+    </Window.Resources>
+    <Grid Background="White">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="24*"></ColumnDefinition>
+            <ColumnDefinition Width="123*"></ColumnDefinition>
+            <ColumnDefinition Width="173*"/>
+            <ColumnDefinition Width="44*"/>
+            <ColumnDefinition Width="86*"/>
+            <ColumnDefinition Width="85*"/>
+            <ColumnDefinition Width="140*"/>
+            <ColumnDefinition Width="480*"/>
+            <ColumnDefinition Width="46*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="17*"></RowDefinition>
+            <RowDefinition Height="140*"></RowDefinition>
+            <RowDefinition Height="25*"/>
+            <RowDefinition Height="95*"/>
+            <RowDefinition Height="15*"/>
+            <RowDefinition Height="63*"/>
+            <RowDefinition Height="22*"/>
+            <RowDefinition Height="45*"/>
+            <RowDefinition Height="63*"/>
+            <RowDefinition Height="142*"/>
+            <RowDefinition Height="17*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Button x:Name="button1" Panel.ZIndex="1" Content="Создать проект" Click="button1_Click" Grid.Column="2" Grid.Row="6" Background="#FFC03748" Foreground="White" FontFamily="Microsoft YaHei UI Light" FontSize="16" Margin="0,22,3,2" BorderBrush="#FFC03748" Grid.RowSpan="2" />
+        <Rectangle Grid.RowSpan="10" Grid.ColumnSpan="7" Grid.Column="1" Margin="0,17,0,2">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="/c96030b6c907c6c8d9b6de2fe063ffb6.jpg"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Image Grid.Column="7" Margin="10,139,-11,3" Grid.RowSpan="8" Grid.Row="1" Source="/design-portfolio.png" Grid.ColumnSpan="2">
+            <Image.OpacityMask>
+                <ImageBrush ImageSource="/design-portfolio.png"/>
+            </Image.OpacityMask>
+        </Image>
+        <TextBlock HorizontalAlignment="Left" Margin="-93,104,0,0" Grid.Row="1" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="19" Width="204" FontSize="14" Foreground="#FFACA9A9" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="2" FontFamily="Mongolian Baiti">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBlock.RenderTransform>
+        </TextBlock>
+        <Rectangle Grid.Column="2" Height="2" Margin="1,23,38,0" Grid.Row="2" Stroke="#FFC03748" VerticalAlignment="Top" Fill="#FFC03748"/>
+        <TextBlock Grid.Column="2" Margin="0,25,0,2" Grid.Row="2" TextWrapping="Wrap" Text="КОНСТРУКТОР САЙТОВ" Foreground="White" FontSize="36" FontFamily="Microsoft YaHei UI" FontWeight="Bold" Grid.RowSpan="2" Grid.ColumnSpan="4" HorizontalAlignment="Left" Width="303"/>
+        <TextBlock Grid.Column="2" Grid.Row="5" Text="" TextWrapping="Wrap" Foreground="#FFF9F9F9" FontFamily="Microsoft YaHei UI Light" FontSize="15" Grid.ColumnSpan="3" HorizontalAlignment="Left" Width="217" Margin="0,1,0,0"/>
+        <Button x:Name="QA" Content="Q&amp;A" Grid.Column="4" Grid.Row="6" BorderBrush="#FFC03748" Background="{x:Null}" Foreground="White" FontSize="16" FontFamily="Microsoft YaHei UI Light" Click="ButtonQA_Click" BorderThickness="3" Grid.ColumnSpan="2" Margin="0,22,1,2" Grid.RowSpan="2"/>
+
+    </Grid>
+</Window>
